@@ -417,7 +417,6 @@ struct ServerView: View {
       self.navigationList
         .navigationSplitViewColumnWidth(200)
 //        .navigationSplitViewColumnWidth(min: 150, ideal: 200, max: 400)
-        .toolbar(removing: .sidebarToggle)
 //        .toolbar {
 //          if self.model.access?.contains(.canOpenUsers) == true {
 //            ToolbarItem(placement: .primaryAction) {
